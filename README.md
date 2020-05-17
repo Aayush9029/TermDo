@@ -35,6 +35,8 @@ mkdir ~/ToDo; cd ToDo && wget https://raw.githubusercontent.com/Aayush9029/TermD
 ###  Usage
  `termdo`
 
+*press q to quit btw*
+
 ---
 
 
