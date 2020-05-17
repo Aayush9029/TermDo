@@ -20,12 +20,12 @@ A Super Lightweight / Fast Todo app for power users or terminal lovers.
 > mkdir ~/ToDo
 > cd ToDo
 > wget https://raw.githubusercontent.com/Aayush9029/TermDo/master/src/termdo.py
-> alias termdo='cd ~/ToDo; python3 termdo.py'
+> alias termdo='cd ~/ToDo; python3 termdo.py; cd ~'
 > ```
 > #### One line copy paste
 >
 ```bash
-mkdir ~/ToDo; cd ToDo && wget https://raw.githubusercontent.com/Aayush9029/TermDo/master/src/termdo.py && alias termdo='cd ~/ToDo; python3 termdo.py';
+mkdir ~/ToDo; cd ToDo && wget https://raw.githubusercontent.com/Aayush9029/TermDo/master/src/termdo.py && alias termdo='cd ~/ToDo; python3 termdo.py; cd ~';
 ```
 
 *alpha* Goto [Releases](https://github.com/Aayush9029/TermDo/releases) and follow the steps there.
