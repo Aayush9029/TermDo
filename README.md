@@ -1,5 +1,5 @@
 # TermDo
-A minimal / Fast Todo app for power users or terminal lovers.
+A Super Lightweight / Fast Todo app for power users or terminal lovers.
 
 
 > ### Add Tasks and Set Priority
