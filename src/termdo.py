@@ -1,7 +1,11 @@
 #!/usr/local/bin/python3
+'''
+Date Created: May 16, 2020
+Creator: Aayush Pokharel
+License Apache-2.0
+'''
 
 import json
-import random
 from os import system, listdir
 import re
 
@@ -15,8 +19,6 @@ class colors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-
-# print(f"{colors.HEADER}Header, {colors.OKBLUE}, Ok blue , {colors.OKGREEN}OK green, {colors.WARNING} WARNING, {colors.FAIL} Fail, {colors.ENDC} ENDC, {colors.BOLD} BOLD, {colors.UNDERLINE} UNDERLINE")
 
 class Todo:
 
@@ -137,3 +139,4 @@ try:
     main()
 except KeyboardInterrupt:
     exit("\nBye..")
+
