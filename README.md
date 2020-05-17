@@ -1,5 +1,5 @@
 # TermDo
-A minimal / Fast Todo app for power users or terminal lovers.
+A Super Lightweight / Fast Todo app for power users or terminal lovers.
 
 ##  [![python 3.8](https://img.shields.io/badge/Python-3.8.1-brightred?style=flat-square)](https://www.python.org/)   ![ask me why](https://img.shields.io/badge/TermDo-v2.9-red?style=flat-square)
 
