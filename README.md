@@ -11,16 +11,35 @@ A Super Lightweight / Fast Todo app for power users or terminal lovers.
 
 ## Installation
 
-Goto [Releases](https://github.com/Aayush9029/TermDo/releases) and follow the steps there.
-
-
-
-> Usage
+> ### Recommended:
+> Download the [python file](https://raw.githubusercontent.com/Aayush9029/TermDo/master/src/termdo.py)
 >
-> `termdo`
+> or 
+> 
+> ```bash
+> mkdir ~/ToDo
+> cd ToDo
+> wget https://raw.githubusercontent.com/Aayush9029/TermDo/master/src/termdo.py
+> alias termdo='python3 ~/ToDo/termdo.py'
+> ```
+> #### One line copy paste
+>
+```bash
+mkdir ~/ToDo; cd ToDo && wget https://raw.githubusercontent.com/Aayush9029/TermDo/master/src/termdo.py && alias termdo='python3 ~/ToDo/termdo.py';
+```
+
+*alpha* Goto [Releases](https://github.com/Aayush9029/TermDo/releases) and follow the steps there.
 
 ---
-TODO:  *ironic*
+
+###  Usage
+ `termdo`
+
+---
+
+
+Next Update: 
   - PEP8
   - Documentation
+  - Pypi intergration
   - `pip install termdo` *not available yet*
