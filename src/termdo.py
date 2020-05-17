@@ -10,14 +10,12 @@ from os import system, listdir
 import re
 
 class colors:
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
+    BLUE = '\033[94m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    RED = '\033[91m'
     ENDC = '\033[0m'
     BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
 
 
 class Todo:
@@ -74,14 +72,14 @@ class Todo:
 
     
     def showToDo(self):
-        banner = f'''{colors.OKBLUE}
+        banner = f'''{colors.BLUE}
     Index       Prority     ToDo{colors.ENDC}  
         '''
         data = self.readData()
         print(banner)
         for index, d in enumerate(data):
             index = f"[{index}]"
-            print(' '*2,'{} {:<10s} {} {:<10} {}{} {:<4s} {}'.format(colors.OKGREEN, str(index),colors.FAIL, "!" * d["priority"],colors.BOLD,colors.WARNING, d["item"], colors.ENDC))
+            print(' '*2,'{} {:<10s} {} {:<10} {}{} {:<4s} {}'.format(colors.GREEN, str(index),colors.RED, "!" * d["priority"],colors.BOLD,colors.YELLOW, d["item"], colors.ENDC))
 
  
 def checkIndex(user_input):
