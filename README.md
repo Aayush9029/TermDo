@@ -17,3 +17,7 @@ Usage
 
 `termdo`
 
+---
+TODO:  *ironic*
+  - PEP8
+  - Documentation
