@@ -41,5 +41,5 @@ mkdir ~/ToDo; cd ToDo && wget https://raw.githubusercontent.com/Aayush9029/TermD
 Next Update: 
   - PEP8
   - Documentation
-  - Pypi intergration
+  - Pypi integration
   - `pip install termdo` *not available yet*
