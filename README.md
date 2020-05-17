@@ -11,13 +11,16 @@ A Super Lightweight / Fast Todo app for power users or terminal lovers.
 
 ## Installation
 
-`pip install termdo`
+Goto [Releases](https://github.com/Aayush9029/TermDo/releases) and follow the steps there.
 
-Usage
 
-`termdo`
+
+> Usage
+>
+> `termdo`
 
 ---
 TODO:  *ironic*
   - PEP8
   - Documentation
+  - `pip install termdo` *not available yet*
