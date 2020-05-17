@@ -127,6 +127,7 @@ def main():
         if checkIndex(index):
             Todo.deleteItem(index)
     elif ask == 'q':
+        system("clear")
         exit("Bye")
     else:
         print("unknown command")
